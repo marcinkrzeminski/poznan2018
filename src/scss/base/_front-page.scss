@@ -1,0 +1,345 @@
+/*--------------------------------------------------------------
+13.2 Front Page
+--------------------------------------------------------------*/
+
+.twentyseventeen-front-page .site-content {
+  padding: 0;
+}
+
+.twentyseventeen-panel {
+  overflow: hidden;
+  position: relative;
+}
+
+.panel-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  &:before {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.3+100 */
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.3)));
+    background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#4d000000", GradientType=0);
+    /* IE6-9 */
+    bottom: 0;
+    content: "";
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 100px;
+  }
+}
+
+
+
+.panel-content {
+  position: relative;
+  .wrap {
+    padding-bottom: 0.5em;
+    padding-top: 1.75em;
+  }
+}
+
+
+
+/* Panel edit link */
+
+.twentyseventeen-panel {
+  .edit-link {
+    display: block;
+    margin: 0.3em 0 0;
+  }
+  .entry-header .edit-link {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+}
+
+/* Front Page - Recent Posts */
+
+.twentyseventeen-front-page .panel-content .recent-posts article {
+  border: 0;
+  color: $black3;
+  margin-bottom: 3em;
+}
+
+.recent-posts .entry-header {
+  margin-bottom: 1.2em;
+}
+
+.page .panel-content .recent-posts .entry-title {
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.twentyseventeen-panel .recent-posts .entry-header .edit-link {
+  color: $black2;
+  display: inline-block;
+  font-size: 11px;
+  font-size: 0.6875rem;
+  margin-left: 1em;
+}
+
+/* Frontpage mods */
+
+.home{
+
+  .site-main{
+
+    h2{
+
+      color: $header-color-1;
+          letter-spacing: 0.05em;
+
+
+    }
+
+  }
+
+  .page-header{
+
+    .page-title{
+
+      display: none;
+
+    }
+
+  }
+  .entry-header{
+   display:none
+  }
+
+
+}
+
+
+
+/* Frontpage Components */
+
+
+.column-frontpage-main-info{
+
+  height: 200px;
+  background: $brand-logo-color-blue;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+
+  &.column-frontpage-variant-1{
+
+    background: $yellow;
+
+  }
+
+  .dashicons{
+
+    display: block;
+    text-align: center;
+    padding: 60px;
+    width: 100%;
+
+  }
+
+  &.column-frontpage-variant-2{
+
+    background: $box-color-2;
+
+  }
+
+  &.column-frontpage-variant-4{
+
+    background: $box-color-4;
+
+  }
+
+
+  a{
+
+    display: table;
+    width: 100%;
+    height: 200px;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: none;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    transition: transform .2s ease-in-out;
+
+    &:hover{
+
+      box-shadow: none;
+      color: darken($white2, 5%);
+      text-decoration:none;
+
+      &:before{
+
+        top: -250%;
+        left: 0;
+
+      }
+
+    }
+
+    &:before{
+
+      display: block;
+      content: '';
+      -ms-transform: rotate(45deg); /* IE 9 */
+      -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+      transform: rotate(45deg);
+      top: -50%;
+      width: 1000px;
+      height: 1000px;
+      position: absolute;
+      left: 50%;
+      background: #fff;
+      opacity: 0.2;
+      -webkit-transition: all 0.21s ease-in-out;
+      -moz-transition: all 0.21s ease-in-out;
+      -o-transition: all 0.21s ease-in-out;
+      transition: all 0.21s ease-in-out;
+
+
+    }
+
+    > span{
+
+      display: table-cell;
+      width: 100%;
+      height: 100px;
+      vertical-align: middle;
+      text-align: center;
+      clear: both;
+      line-height: 2;
+
+      small{
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        padding: 0px 10px;
+        background: $yellow;
+        color: $navigation-background-color;
+        font-size:70%;
+
+      }
+
+      img{
+
+        border: none;
+        box-shadow: none;
+
+      }
+
+    }
+
+  }
+
+}
+
+/*sections*/
+
+.twentyseventeen-panel{
+
+  h2{
+
+    text-align: center;
+        letter-spacing: 0.14em;
+
+  }
+
+  &.post-49{
+
+    background: $silver3;
+
+  }
+
+}
+ .slideshow-window{
+  border-radius:0  !important;
+  background:transparent  !important;
+  border:0  !important;
+  padding:0 !important;
+  margin-top:-30px;
+  }
+
+ a.btn{
+  display:inline-block;
+  padding:7px 25px;
+  text-decoration:none;
+  color: #fff;
+  background:$blue1;
+   text-transform: uppercase;
+   transition: all 0.3s ease 0s;
+   font-size:1rem;
+   position: relative;
+   overflow: hidden;
+
+   &:after{
+
+     display: block;
+     content: '';
+     -ms-transform: rotate(45deg); /* IE 9 */
+     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+     transform: rotate(45deg);
+     top: 100%;
+     width: 1000px;
+     height: 1000px;
+     position: absolute;
+     left: 20%;
+     background: #fff;
+     opacity: 0.2;
+
+     -webkit-transition: all 0.21s ease-in-out;
+     -moz-transition: all 0.21s ease-in-out;
+     -o-transition: all 0.21s ease-in-out;
+     transition: all 0.21s ease-in-out;
+
+
+   }
+
+  &:hover,
+  &:active{
+    text-decoration:none !important;
+    text-shadow: none;
+    color: #fff;
+
+    &:after{
+
+      top: -850%;
+
+    }
+  }
+}
+  a.btn-yellow{
+    background:$yellow;
+  }
+  a.btn-red{
+    background:$red;
+
+    &:hover,
+    &:focus{
+
+      color: #fff;
+
+    }
+  }
+.entry-content a:hover img{
+    opacity: 0.7;
+}
+
+
+

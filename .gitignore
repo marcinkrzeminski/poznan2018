@@ -1,0 +1,7 @@
+*.php
+*.txt
+rtl.css
+screenshot.png
+
+node_modules
+assets

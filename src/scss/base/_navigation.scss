@@ -1,0 +1,232 @@
+/*--------------------------------------------------------------
+12.0 Navigation
+--------------------------------------------------------------*/
+
+.navigation-top {
+  background: $navigation-background-color;
+
+  font-size: 16px;
+  font-size: 1rem;
+  position: relative;
+  .wrap {
+    max-width: $max-width-wrap;
+    padding: 0;
+  }
+  a {
+    color: $white1;
+    font-weight: 600;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    text-transform: uppercase;
+  }
+  .current-menu-item > a,
+  .current_page_item > a,
+  .current-menu-parent > a,
+  .current_page_parent > a{
+    color: $navigation-color-hover;
+  }
+
+
+}
+
+
+.main-navigation {
+  clear: both;
+  display: block;
+  ul {
+
+    background: $navigation-background-color;
+    list-style: none;
+    margin: 0;
+    padding: 0 1.5em;
+    text-align: left;
+
+    a{
+
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+
+    }
+  }
+}
+
+/* Hide the menu on small screens when JavaScript is available.
+ * It only works with JavaScript.
+ */
+
+.js .main-navigation ul {
+  display: none;
+}
+
+.main-navigation {
+  .menu-item-has-children > a > .icon, .page_item_has_children > a > .icon, ul a > .icon {
+    display: none;
+  }
+  > div > ul {
+    border-top: 1px solid $silver2;
+    padding: 0.75em 2.05em;
+  }
+}
+
+.js .main-navigation.toggled-on > div > ul {
+  display: block;
+}
+
+.main-navigation {
+  ul ul {
+    padding: 0 0 0 1.5em;
+    &.toggled-on {
+      display: block;
+    }
+    a {
+      letter-spacing: 0;
+      padding: 0.4em 0;
+      position: relative;
+      text-transform: none;
+    }
+  }
+  li {
+    border-bottom: 1px solid $silver2;
+    position: relative;
+    li, &:last-child {
+      border: 0;
+
+    }
+
+    li{
+
+      a{
+
+        &:hover{
+
+          color: $navigation-color-hover!important;
+
+        }
+
+      }
+
+    }
+
+
+    &:hover{
+
+
+
+      > a{
+
+        color: $navigation-color-hover;
+
+      }
+
+    }
+
+
+  }
+  a {
+    display: block;
+    padding: 0.5em 0;
+    text-decoration: none;
+    &:hover {
+      color: $navigation-color-hover;
+    }
+  }
+}
+
+/* Menu toggle */
+
+.menu-toggle {
+
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: $navigation-background-color;
+  display: none;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 0 auto 0;
+  padding: 1em;
+  text-shadow: none;
+  background: $yellow;
+}
+
+/* Display the menu toggle when JavaScript is available. */
+
+.js .menu-toggle,
+.main-navigation.toggled-on ul.nav-menu {
+  display: block;
+}
+
+.menu-toggle {
+  &:hover {
+    background: $yellow;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: $navigation-background-color;
+  }
+  &:focus {
+    background: $yellow;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: $navigation-background-color;
+
+  }
+  .icon {
+    margin-right: 0.5em;
+    top: -2px;
+    color:$navigation-background-color;
+    *{
+    fill: $navigation-background-color !important;
+    }
+    
+  }
+}
+
+.toggled-on .menu-toggle .icon-bars,
+.menu-toggle .icon-close {
+  display: none;
+}
+
+.toggled-on .menu-toggle .icon-close {
+  display: inline-block;
+}
+
+/* Dropdown Toggle */
+
+.dropdown-toggle {
+  background-color: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: $black2;
+  display: block;
+  font-size: 16px;
+  right: -0.5em;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 0.5em;
+  position: absolute;
+  text-shadow: none;
+  top: 0;
+  &:hover {
+    background: transparent;
+  }
+  &:focus {
+    background: transparent;
+    outline: thin dotted;
+  }
+  &.toggled-on .icon {
+    -ms-transform: rotate(-180deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-180deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-180deg);
+  }
+}
+
+/* Scroll down arrow */
+
+.site-header .menu-scroll-down {
+  display: none;
+}

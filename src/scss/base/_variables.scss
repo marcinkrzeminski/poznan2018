@@ -1,0 +1,64 @@
+// Colors
+$white1: #fff;
+$white2: #fafafa;
+
+$black1: #000;
+$black2: #222;
+$black3: #333;
+
+$silver1: #f1f1f1;
+$silver2: #eee;
+$silver3: #ddd;
+
+$gray1: #767676;
+$gray2: #bbb;
+$gray3: #666;
+$gray4: #aaa;
+$gray5: #555;
+$gray6: #777;
+
+$brand-logo-color: #4e4643;
+
+$brand-logo-color-blue: #006f99;
+$header-color-1: #3d3d3c;
+
+$box-color-1: #E0C61A;
+$box-color-2: #3A5A64;
+$box-color-3: #5D9E8A;
+$box-color-4: #c02942;
+
+$blue1: #0085ba;
+$blue2: #21759b;
+$yellow: #ffc740;
+$red: #c02942;
+
+$navigation-background-color: #464646;
+$navigation-color-hover: $yellow;
+
+// Fonts
+$font-family-base: sans-serif;
+$font-family-code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font-family-input: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+$font-family-lang1: Tahoma, Arial, sans-serif;
+$font-family-lang2: "PingFang TC", "Helvetica Neue", Helvetica, STHeitiTC-Light, Arial, sans-serif;
+$font-family-lang3: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+$font-family-lang4: Arial, sans-serif;
+$font-family-lang5: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-lang6: "Arial Hebrew", Arial, sans-serif;
+$font-family-lang7: "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+$font-family-lang8: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
+$font-family-lang9: "Sukhumvit Set", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-mono: monospace, monospace;
+$font-family-placeholder: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+$font-family-pre: "Courier 10 Pitch", Courier, monospace;
+
+//Size
+
+$max-width-wrap: 1170px;
+$max-width-wrap-text: 800px;
+$max-width-wrap-home: 100%;
+$top-header-height: 400px;
+$top-header-height-home: 500px;
+$top-header-height-with-admin-bar: calc(90vh - 32px);
+
+$navigation-top-height: 70px;

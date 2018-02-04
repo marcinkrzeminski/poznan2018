@@ -1,0 +1,286 @@
+/*--------------------------------------------------------------
+10.0 Links
+--------------------------------------------------------------*/
+
+a {
+  color: $brand-logo-color-blue;
+  text-decoration: none;
+
+  &:hover, &:active {
+    color: $navigation-background-color;
+    outline: 0;
+    text-decoration: none;
+  }
+}
+
+
+
+.entry-title a,
+.entry-meta a {
+
+  text-decoration: none;
+
+}
+
+.page-links a {
+
+  text-decoration: none;
+
+  .page-number {
+
+    text-decoration: none;
+
+  }
+}
+
+.entry-footer {
+  a, .cat-links a, .tags-links a {
+
+    text-decoration: none;
+
+  }
+}
+.edit-link{
+
+  display: none;
+
+}
+.edit-link a,
+.post-navigation a,
+.logged-in-as a,
+.comment-navigation a {
+
+  text-decoration: none;
+
+}
+
+.comment-metadata a {
+  -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+
+  text-decoration: none;
+
+
+  &.comment-edit-link {
+    -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+
+    text-decoration: none;
+
+  }
+}
+
+.comment-reply-link,
+a .nav-title,
+.pagination a,
+.comments-pagination a,
+.site-info a {
+
+  text-decoration: none;
+
+}
+
+.widget {
+  .widget-title a, ul li a {
+
+    text-decoration: none;
+
+  }
+}
+
+.site-footer .widget-area ul li a {
+
+  text-decoration: none;
+
+}
+
+.entry-content a {
+  &:focus, &:hover {
+    color: $navigation-background-color;
+    outline: 0;
+    text-decoration: none;
+
+  }
+}
+
+.entry-summary a {
+  &:focus, &:hover {
+
+    color: $black1;
+    text-decoration: underline;
+
+  }
+}
+
+.widget a {
+  &:focus, &:hover {
+
+    color: $black1;
+    text-decoration: underline;
+
+  }
+}
+
+.site-footer .widget-area a {
+
+  &:focus, &:hover {
+
+    color: $black1;
+
+  }
+
+}
+
+.posts-navigation a {
+  &:focus, &:hover {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.comment-metadata a {
+  &:focus, &:hover {
+    color: $black1;
+    text-decoration: underline
+  }
+  &.comment-edit-link {
+    &:focus, &:hover {
+      color: $black1;
+      text-decoration: underline
+    }
+  }
+}
+
+.comment-reply-link {
+  &:focus, &:hover {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.widget_authors a {
+  &:focus strong, &:hover strong {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.entry-title a {
+  &:focus, &:hover {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.entry-meta a {
+  &:focus, &:hover {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.page-links a {
+  &:focus .page-number,
+  &:hover .page-number {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.entry-footer {
+  a {
+    &:focus, &:hover {
+      color: $black1;
+      text-decoration: underline
+    }
+  }
+  .cat-links a {
+    &:focus, &:hover {
+      color: $black1;
+      text-decoration: underline
+    }
+  }
+  .tags-links a {
+    &:focus, &:hover {
+      color: $black1;
+      text-decoration: underline
+    }
+  }
+}
+
+.post-navigation a {
+  &:focus, &:hover {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.pagination a:not(.prev):not(.next) {
+  &:focus, &:hover {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.comments-pagination a:not(.prev):not(.next) {
+  &:focus, &:hover {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.logged-in-as a {
+  &:focus, &:hover {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+a {
+  &:focus .nav-title,
+  &:hover .nav-title {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.edit-link a {
+  &:focus, &:hover {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.site-info a {
+  &:focus, &:hover {
+    color: $black1;
+    text-decoration: underline
+  }
+}
+
+.widget {
+  .widget-title a {
+    &:focus, &:hover {
+      color: $black1;
+      text-decoration: underline
+    }
+  }
+  ul li a {
+    &:focus, &:hover {
+      color: $black1;
+      text-decoration: underline
+    }
+  }
+}
+
+/* Fixes linked images */
+
+.entry-content a img,
+.widget a img {
+  -webkit-box-shadow: 0 0 0 8px $white1;
+  box-shadow: 0 0 0 8px $white1;
+}
+
+.post-navigation a {
+  &:focus .icon, &:hover .icon {
+    color: $black2;
+  }
+}

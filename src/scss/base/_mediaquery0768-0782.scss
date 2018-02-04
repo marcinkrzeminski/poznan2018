@@ -1,0 +1,40 @@
+@media screen and (max-width: 48.875em) and (min-width: 48em) {
+  .admin-bar {
+    .site-navigation-fixed.navigation-top, .site-navigation-hidden.navigation-top {
+      top: 46px;
+    }
+  }
+
+  .wrap{
+
+    padding: 0 25px;
+
+  }
+
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+
+
+  .home{
+
+    .wrap{
+
+      padding: 0 2em;
+
+    }
+
+  }
+
+  .site-footer .wrap{
+  padding:0px;
+  }
+  .navigation-top{
+
+    padding: 0 25px;
+    height: auto;
+
+  }
+
+}

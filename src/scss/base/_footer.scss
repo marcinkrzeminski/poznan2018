@@ -1,0 +1,208 @@
+/*--------------------------------------------------------------
+13.6 Footer
+--------------------------------------------------------------*/
+
+.site-footer {
+
+  background-color: $silver3;
+
+  .wrap {
+    padding: 0;
+    max-width: $max-width-wrap-home;
+  }
+  .widget-area {
+    padding: 0em;
+
+  }
+}
+
+.social-navigation {
+  font-size: 16px;
+  font-size: 1rem;
+  margin-bottom: 1em;
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  li {
+    display: inline;
+  }
+  a {
+    background-color: $gray1;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    color: $white1;
+    display: inline-block;
+    height: 40px;
+    margin: 0 1em 0.5em 0;
+    text-align: center;
+    width: 40px;
+    &:hover, &:focus {
+      background-color: $black3;
+    }
+  }
+  .icon {
+    height: 16px;
+    top: 12px;
+    width: 16px;
+    vertical-align: top;
+  }
+}
+
+/* Site info */
+
+.site-info {
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin-bottom: 1em;
+  a {
+    color: $gray3;
+  }
+  .sep {
+    margin: 0;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    width: 100%;
+  }
+}
+
+.footer-widget-1 {
+  color: $white1;
+  background-color: $navigation-background-color;
+  background-image:url('https://2017.lublin.wordcamp.org/files/2017/02/bg-newsletter.png');
+  background-repeat:no-repeat;
+  background-position: left bottom;
+  padding-top: 30px;
+  text-align: center;
+  h2.widget-title {
+    color: $yellow;
+    font-size: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+}
+
+.jetpack_subscription_widget {
+  max-width: 700px;
+  margin: 0 auto;
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+
+  }
+  #subscribe-email {
+    float: left;
+    width: 60%;
+    margin: 0;
+    padding-left: 15px;
+
+    input {
+
+      width: 100%;
+      height: 50px;
+      border: 1px solid #fff;
+
+      &:focus{
+
+        border: 1px solid $yellow;
+        border-right: 1px solid #fff;
+
+      }
+
+    }
+  }
+  #subscribe-submit {
+
+    float: left;
+    width: 35%;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    background: $brand-logo-color-blue;
+
+    &:after{
+
+      display: block;
+      content: '';
+      -ms-transform: rotate(45deg); /* IE 9 */
+      -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+      transform: rotate(45deg);
+      top: 100%;
+      width: 1000px;
+      height: 1000px;
+      position: absolute;
+      left: 20%;
+      background: #fff;
+      opacity: 0.2;
+
+      -webkit-transition: all 0.21s ease-in-out;
+      -moz-transition: all 0.21s ease-in-out;
+      -o-transition: all 0.21s ease-in-out;
+      transition: all 0.21s ease-in-out;
+
+
+    }
+
+    &:hover{
+
+      &:after{
+
+        top: -850%;
+
+      }
+
+    }
+
+    input {
+      padding: 0.7em 0;
+      width: 100%;
+      font-size: 16px;
+      font-size: 1rem;
+      line-height: 1.8;
+      height: 50px;
+      font-weight:400;
+      text-transform: uppercase;
+      position: relative;
+      z-index: 1;
+      background: transparent;
+
+      &:hover{
+
+        background: transparent;
+
+      }
+
+
+
+    }
+  }
+  #subscribe-text p {
+    font-size: 1rem;
+  }
+}
+
+.footer-widget-2 {
+  padding-top: 30px;
+  text-align: center;
+  h2.widget-title {
+    display: none
+  }
+  ul {
+    margin: 0;
+    li {
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
+  section.widget {
+    padding-bottom: 0px !important;
+  }
+}
+
+.site-info {
+  text-align: center;
+  width: 100%
+}

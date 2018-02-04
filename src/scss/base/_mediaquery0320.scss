@@ -1,0 +1,180 @@
+/*--------------------------------------------------------------
+19.0 Media Queries
+--------------------------------------------------------------*/
+
+/* Adjust positioning of edit shortcuts, override style in customize-preview.css */
+@media screen and (min-width: 20em) {
+  body.customize-partial-edit-shortcuts-shown .site-header .site-title {
+    padding-left: 0;
+  }
+
+
+
+
+
+  /* Site Branding */
+  .site-branding {
+    margin: 0 auto!important;
+    padding: 3em 0 0 0;
+  }
+
+  .site-description {
+
+    font-size: 1em;
+
+  }
+
+  .entry-content{
+
+    .alignleft{
+
+
+      float:left;
+      margin-right: 1.5em;
+
+
+    }
+
+  }
+
+
+
+
+}
+
+@media screen and (min-width: 20em) and (max-width: 48em) {
+
+  .site-branding {
+
+    height: 360px!important;
+
+  }
+
+  .column-frontpage-main-info{
+
+    a{
+
+      transition: all 1s ease-in-out;
+
+      &:hover{
+
+
+
+      }
+
+      &:before{
+
+        top: 8%;
+        width: 1000px;
+        height: 1000px;
+        -ms-transform: rotate(45deg); /* IE 9 */
+        -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+        transform: rotate(45deg);
+        transition: all 0.2s ease-in-out;
+
+      }
+
+    }
+
+  }
+
+  .main-navigation {
+
+    li {
+
+
+      &.menu-item-has-children{
+
+       .dropdown-toggle {
+
+         top: 0;
+         left: 0;
+         right: 0;
+         height: 45px;
+         width: 100%;
+         outline: none;
+
+         &:after {
+
+           content: '';
+           display: inline-block;
+           right: 5px;
+           top: 18px;
+           left: auto;
+           position: absolute;
+           overflow: hidden;
+           height: 6px;
+           font-size: 1em;
+           width: 6px;
+           text-align: center;
+           -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+
+           transform: rotate(45deg);
+           text-transform: none;
+           text-indent: -10px;
+           border-right: 1px solid #fff;
+           border-bottom: 1px solid #fff;
+
+         }
+
+         &:hover {
+
+           &:after {
+
+             border-right: 1px solid $yellow;
+             border-bottom: 1px solid $yellow;
+
+           }
+
+         }
+
+         svg {
+
+           display: none !important;
+
+         }
+
+       }
+
+      }
+
+
+    }
+
+
+
+
+
+
+  }
+
+
+}
+@media screen and (max-width: 30em) {
+
+  .page-slug-uczestnicy{
+
+
+
+    #tix-attendees {
+
+      .tix-attendee-list {
+
+        padding-left: 0;
+
+        &.tix-columns-3 {
+
+          li{
+
+            width: 100%!important;
+
+          }
+
+        }
+      }
+    }
+
+  }
+
+}
+

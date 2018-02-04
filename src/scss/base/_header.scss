@@ -1,0 +1,252 @@
+/*--------------------------------------------------------------
+13.1 Header
+--------------------------------------------------------------*/
+
+#masthead .wrap {
+  position: relative;
+}
+
+.site-header {
+  background-color: $navigation-background-color;
+  position: relative;
+
+}
+
+/* Site branding */
+
+.site-branding {
+  padding: 1em 0;
+  background:url('https://2017.lublin.wordcamp.org/files/2017/02/banner2.jpg') no-repeat center bottom;
+  background-size:cover;
+  -webkit-transition: margin-bottom 0.2s;
+  transition: margin-bottom 0.2s;
+  z-index: 3;
+  height: $top-header-height;
+  margin: 20px auto 0 auto!important;
+
+  a {
+    text-decoration: none;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    &:hover, &:focus {
+      opacity: 1;
+    }
+  }
+
+
+}
+.home .site-branding {
+  height: $top-header-height-home;
+}
+
+
+body {
+  &.has-header-image .site-title, &.has-header-video .site-title, &.has-header-image .site-title a, &.has-header-video .site-title a {
+    color: $white1;
+  }
+}
+
+.site-description {
+
+  font-size: 25px;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  display: block;
+  color: $yellow;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+body {
+  &.has-header-image .site-description, &.has-header-video .site-description {
+
+
+    display: block;
+    margin: 0 0 10px 0;
+
+    max-width: 100%;
+    padding: 3px 10px;
+    color: $yellow;
+
+
+  }
+}
+
+.custom-logo-link {
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+  width: 200px!important;
+  img {
+    display: inline-block;
+    max-height: 200px!important;
+    width: auto;
+    -webkit-transition: all 0.21s ease-in-out;
+    -moz-transition: all 0.21s ease-in-out;
+    -o-transition: all 0.21s ease-in-out;
+    transition: all 0.21s ease-in-out;
+  }
+
+  &:hover{
+
+    img{
+
+      opacity: 0.9;
+
+
+    }
+
+  }
+}
+
+
+
+
+
+body:not(.title-tagline-hidden) .site-branding-text {
+  display: block;
+  vertical-align: middle;
+  text-align:center;
+  color:#ffc740;
+}
+.site-branding-text .site-title{
+  display:none;
+}
+.custom-header {
+  position: relative;
+}
+
+
+
+.custom-header-media {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+
+  img{
+
+    display: none!important;
+
+  }
+
+}
+
+.has-header-image .custom-header-media img {
+  position: fixed;
+  height: auto;
+  left: 50%;
+  max-width: 1000%;
+  min-height: 100%;
+  min-width: 100%;
+  min-width: 100vw;
+  /* vw prevents 1px gap on left that 100% has */
+  width: auto;
+  top: 50%;
+  padding-bottom: 1px;
+  /* Prevent header from extending beyond the footer */
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+}
+
+.has-header-video .custom-header-media {
+  video, iframe {
+    position: fixed;
+    height: auto;
+    left: 50%;
+    max-width: 1000%;
+    min-height: 100%;
+    min-width: 100%;
+    min-width: 100vw;
+    /* vw prevents 1px gap on left that 100% has */
+    width: auto;
+    top: 50%;
+    padding-bottom: 1px;
+    /* Prevent header from extending beyond the footer */
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+.wp-custom-header .wp-custom-header-video-button {
+  /* Specificity prevents .color-dark button overrides */
+  background-color: rgba(34, 34, 34, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+  height: 45px;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+  width: 45px;
+  &:hover, &:focus {
+    /* Specificity prevents .color-dark button overrides */
+    border-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(34, 34, 34, 0.8);
+    color: $white1;
+  }
+}
+
+.admin-bar .wp-custom-header-video-button {
+  top: 62px;
+}
+
+
+/* For browsers that support 'object-fit' */
+@supports (object-fit: cover) {
+  .has-header-image .custom-header-media img {
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    top: 0;
+    -ms-transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    width: 100%;
+  }
+  .has-header-video .custom-header-media {
+    video, iframe {
+      height: 100%;
+      left: 0;
+      -o-object-fit: cover;
+      object-fit: cover;
+      top: 0;
+      -ms-transform: none;
+      -moz-transform: none;
+      -webkit-transform: none;
+      transform: none;
+      width: 100%;
+    }
+  }
+  .has-header-image .custom-header-media img {
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -ms-transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    width: 100%;
+  }
+}
+
+/* Hides div in Customizer preview when header images or videos change. */
+
+body:not(.has-header-image):not(.has-header-video) .custom-header-media {
+  display: none;
+}
