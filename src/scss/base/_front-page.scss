@@ -328,7 +328,7 @@
     background:$yellow;
   }
   a.btn-red{
-    background:$red;
+    background: darken($red, 20%);
 
     &:hover,
     &:focus{
