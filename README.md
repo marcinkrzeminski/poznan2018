@@ -13,3 +13,6 @@ gulp
 6. Start contributing
 
 Note: If you have setup the URL for the new site differently than suggested please change the config in the gulpfile.js
+
+Credits:
+This theme is based on WordCamp Lublin 2017, work by the [@netbiel](https://github.com/netbiel/) and the whole WC Lublin team. Original repo link: https://github.com/netbiel/lublin2017. Thank you ❤️
