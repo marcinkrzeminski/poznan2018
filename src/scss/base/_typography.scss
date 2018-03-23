@@ -4,7 +4,7 @@
 
 body, button, input, select, textarea {
 
-  color: $black3;
+  color: $text-color;
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
   font-size: 0.9375rem;
@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  color: $blue1;
 }
 
 h1:first-child,
@@ -34,44 +35,33 @@ h6:first-child {
 
 h1 {
   font-size: 24px;
-  font-size: 1.5rem;
   font-weight: 300;
 }
 
 h2 {
-  color: $gray3;
   font-size: 20px;
-  font-size: 1.25rem;
 
 }
 
 h3 {
-  color: $black3;
-  font-size: 18px;
   font-size: 1.125rem;
   font-weight: 300;
 }
 
 h4 {
-  color: $black3;
-  font-size: 16px;
   font-size: 1rem;
   font-weight: 800;
 }
 
 h5 {
-  color: $gray1;
   font-size: 13px;
-  font-size: 0.8125rem;
   font-weight: 800;
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
 
 h6 {
-  color: $black3;
   font-size: 15px;
-  font-size: 0.9375rem;
   font-weight: 800;
 }
 

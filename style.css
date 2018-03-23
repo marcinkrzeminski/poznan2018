@@ -938,7 +938,7 @@ h3 {
 5.0 Typography
 --------------------------------------------------------------*/
 body, button, input, select, textarea {
-  color: #333;
+  color: #0c1934;
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
   font-size: 0.9375rem;
@@ -952,7 +952,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1.5em 0 0;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #234792; }
 
 h1:first-child,
 h2:first-child,
@@ -964,38 +965,27 @@ h6:first-child {
 
 h1 {
   font-size: 24px;
-  font-size: 1.5rem;
   font-weight: 300; }
 
 h2 {
-  color: #666;
-  font-size: 20px;
-  font-size: 1.25rem; }
+  font-size: 20px; }
 
 h3 {
-  color: #333;
-  font-size: 18px;
   font-size: 1.125rem;
   font-weight: 300; }
 
 h4 {
-  color: #333;
-  font-size: 16px;
   font-size: 1rem;
   font-weight: 800; }
 
 h5 {
-  color: #767676;
   font-size: 13px;
-  font-size: 0.8125rem;
   font-weight: 800;
   letter-spacing: 0.15em;
   text-transform: uppercase; }
 
 h6 {
-  color: #333;
   font-size: 15px;
-  font-size: 0.9375rem;
   font-weight: 800; }
 
 p {
@@ -2108,8 +2098,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 
 /*sections*/
 .twentyseventeen-panel h2 {
-  text-align: center;
-  letter-spacing: 0.14em; }
+  text-align: center; }
 
 .twentyseventeen-panel.post-49 {
   background: #ddd; }
@@ -2372,6 +2361,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1.25px; }
+  .entry-content .more-link:hover {
+    color: #234792; }
 
 .entry-content .more-link:before {
   content: "";
@@ -3631,9 +3622,10 @@ embed, iframe, object {
   text-align: center; }
 
 .wc-text-strong {
-  background: #ffc740;
+  background: #009cdc;
   padding: 0 5px;
-  font-weight: normal; }
+  font-weight: normal;
+  color: #fff; }
 
 .wc-big-list li {
   font-size: 18px;
