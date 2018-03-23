@@ -52,8 +52,8 @@
 
   /* Front Page */
   .panel-content .wrap {
-    padding-bottom: 2em;
-    padding-top: 3.5em;
+    padding-bottom: rem(40px);
+    padding-top: rem(40px);
   }
   .page-one-column .panel-content .wrap {
     max-width: $max-width-wrap;

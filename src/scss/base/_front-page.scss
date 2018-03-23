@@ -93,18 +93,18 @@
 /* Frontpage mods */
 
 .home{
-
-  .site-main{
-
-    h2{
-
-      color: $header-color-1;
-          letter-spacing: 0.05em;
-
-
-    }
-
-  }
+//
+//  .site-main{
+//
+//    h2{
+//
+//      color: $header-color-1;
+//          letter-spacing: 0.05em;
+//
+//
+//    }
+//
+//  }
 
   .page-header{
 
@@ -127,127 +127,53 @@
 /* Frontpage Components */
 
 
-.column-frontpage-main-info{
-
-  height: 200px;
-  background: $brand-logo-color-blue;
-  color: #fff;
+.column-frontpage-main-info {
+  height: rem(170px);
+  background: $white1;
+  color: $blue1;
   position: relative;
   overflow: hidden;
+  box-shadow: -5.665px 9.429px 40px 0px rgba(235, 235, 235, 0.4);
+  transition: all .2s ease-in-out;
+  margin-bottom: rem(20px);
 
-  &.column-frontpage-variant-1{
-
-    background: $yellow;
-
+  &:hover {
+    box-shadow: -5.665px 9.429px 40px 10px rgba($blue1, 0.09);
   }
-
-  .dashicons{
-
-    display: block;
-    text-align: center;
-    padding: 60px;
-    width: 100%;
-
-  }
-
-  &.column-frontpage-variant-2{
-
-    background: $box-color-2;
-
-  }
-
-  &.column-frontpage-variant-4{
-
-    background: $box-color-4;
-
-  }
-
 
   a{
-
-    display: table;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 200px;
-    text-decoration: none;
-    color: #fff;
-    border: none;
-    text-transform: uppercase;
-    box-shadow: none;
-    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    text-align: center;
+    color: $blue1;
     overflow: hidden;
-    transition: transform .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-size: rem(18px);
+    font-weight: 500;
 
     &:hover{
-
-      box-shadow: none;
-      color: darken($white2, 5%);
-      text-decoration:none;
-
-      &:before{
-
-        top: -250%;
-        left: 0;
-
-      }
-
+      color: $blue2;
     }
 
-    &:before{
-
-      display: block;
-      content: '';
-      -ms-transform: rotate(45deg); /* IE 9 */
-      -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-      transform: rotate(45deg);
-      top: -50%;
-      width: 1000px;
-      height: 1000px;
+    small {
       position: absolute;
-      left: 50%;
-      background: #fff;
-      opacity: 0.2;
-      -webkit-transition: all 0.21s ease-in-out;
-      -moz-transition: all 0.21s ease-in-out;
-      -o-transition: all 0.21s ease-in-out;
-      transition: all 0.21s ease-in-out;
-
-
+      top: rem(5px);
+      right: rem(5px);
+      display: block;
+      padding: rem(0 6px);
+      background: $blue1;
+      color: $white1;
+      font-size: rem(14px);
     }
 
-    > span{
-
-      display: table-cell;
-      width: 100%;
-      height: 100px;
-      vertical-align: middle;
-      text-align: center;
-      clear: both;
-      line-height: 2;
-
-      small{
-
-        position: absolute;
-        top: 0;
-        right: 0;
-        display: block;
-        padding: 0px 10px;
-        background: $yellow;
-        color: $navigation-background-color;
-        font-size:70%;
-
-      }
-
-      img{
-
-        border: none;
-        box-shadow: none;
-
-      }
-
+    img {
+      margin-bottom: rem(20px);
     }
-
   }
-
 }
 
 /*sections*/
@@ -257,7 +183,7 @@
   h2{
 
     text-align: center;
-        letter-spacing: 0.14em;
+    letter-spacing: 0.14em;
 
   }
 

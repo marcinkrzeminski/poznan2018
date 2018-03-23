@@ -3,17 +3,14 @@
 --------------------------------------------------------------*/
 
 .navigation-top {
-  background: $navigation-background-color;
-
-  font-size: 16px;
-  font-size: 1rem;
+  background: $blue2;
   position: relative;
   .wrap {
-    max-width: $max-width-wrap;
-    padding: 0;
+    //max-width: $max-width-wrap;
+    //padding: 0;
   }
   a {
-    color: $white1;
+    color: $blue1;
     font-weight: 600;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
@@ -23,10 +20,8 @@
   .current_page_item > a,
   .current-menu-parent > a,
   .current_page_parent > a{
-    color: $navigation-color-hover;
+    color: $blue1;
   }
-
-
 }
 
 
@@ -43,7 +38,6 @@
 
     a{
 
-      font-family: 'Oswald', sans-serif;
       font-weight: 400;
 
     }
@@ -135,20 +129,40 @@
 /* Menu toggle */
 
 .menu-toggle {
-
   border: 0;
-  -webkit-box-shadow: none;
   box-shadow: none;
   color: $navigation-background-color;
   display: none;
-  font-size: 14px;
-  font-size: 0.875rem;
-  font-weight: 800;
-  line-height: 1.5;
+  font-size: rem(16px);
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: rem(15px 10px);
   margin: 0 auto 0;
-  padding: 1em;
   text-shadow: none;
-  background: $yellow;
+  background: $blue2;
+  width: 100%;
+
+  &:hover {
+    background: $blue1;
+    color: $navigation-background-color;
+  }
+
+  &:focus {
+    background: $blue1;
+    color: $navigation-background-color;
+
+  }
+
+  .icon {
+    margin-right: 0.5em;
+    top: -2px;
+    color:$navigation-background-color;
+
+    * {
+      fill: $navigation-background-color !important;
+    }
+
+  }
 }
 
 /* Display the menu toggle when JavaScript is available. */
@@ -156,31 +170,6 @@
 .js .menu-toggle,
 .main-navigation.toggled-on ul.nav-menu {
   display: block;
-}
-
-.menu-toggle {
-  &:hover {
-    background: $yellow;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    color: $navigation-background-color;
-  }
-  &:focus {
-    background: $yellow;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    color: $navigation-background-color;
-
-  }
-  .icon {
-    margin-right: 0.5em;
-    top: -2px;
-    color:$navigation-background-color;
-    *{
-    fill: $navigation-background-color !important;
-    }
-    
-  }
 }
 
 .toggled-on .menu-toggle .icon-bars,

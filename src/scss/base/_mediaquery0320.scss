@@ -8,47 +8,15 @@
     padding-left: 0;
   }
 
-
-
-
-
-  /* Site Branding */
-  .site-branding {
-    margin: 0 auto!important;
-    padding: 3em 0 0 0;
-  }
-
-  .site-description {
-
-    font-size: 1em;
-
-  }
-
   .entry-content{
-
     .alignleft{
-
-
       float:left;
       margin-right: 1.5em;
-
-
     }
-
   }
-
-
-
-
 }
 
 @media screen and (min-width: 20em) and (max-width: 48em) {
-
-  .site-branding {
-
-    height: 360px!important;
-
-  }
 
   .column-frontpage-main-info{
 
@@ -56,11 +24,6 @@
 
       transition: all 1s ease-in-out;
 
-      &:hover{
-
-
-
-      }
 
       &:before{
 
@@ -99,7 +62,7 @@
            content: '';
            display: inline-block;
            right: 5px;
-           top: 18px;
+           top: rem(25px);
            left: auto;
            position: absolute;
            overflow: hidden;
@@ -112,8 +75,8 @@
            transform: rotate(45deg);
            text-transform: none;
            text-indent: -10px;
-           border-right: 1px solid #fff;
-           border-bottom: 1px solid #fff;
+           border-right: 1px solid $blue1;
+           border-bottom: 1px solid $blue1;
 
          }
 
@@ -121,8 +84,8 @@
 
            &:after {
 
-             border-right: 1px solid $yellow;
-             border-bottom: 1px solid $yellow;
+             border-right: 1px solid $blue2;
+             border-bottom: 1px solid $blue2;
 
            }
 

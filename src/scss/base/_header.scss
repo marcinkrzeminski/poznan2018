@@ -15,30 +15,19 @@
 /* Site branding */
 
 .site-branding {
-  padding: 1em 0;
-  background:url('https://2017.lublin.wordcamp.org/files/2017/02/banner2.jpg') no-repeat center bottom;
-  background-size:cover;
-  -webkit-transition: margin-bottom 0.2s;
-  transition: margin-bottom 0.2s;
+  background:url('https://2018.poznan.wordcamp.org/files/2018/03/header-bg.png') no-repeat center bottom;
+  background-size: cover;
   z-index: 3;
-  height: $top-header-height;
-  margin: 20px auto 0 auto!important;
+  height: rem(220px);
+  margin: 0;
+  padding: rem(20px 0);
 
   a {
     text-decoration: none;
     -webkit-transition: opacity 0.2s;
     transition: opacity 0.2s;
-    &:hover, &:focus {
-      opacity: 1;
-    }
   }
-
-
 }
-.home .site-branding {
-  height: $top-header-height-home;
-}
-
 
 body {
   &.has-header-image .site-title, &.has-header-video .site-title, &.has-header-image .site-title a, &.has-header-video .site-title a {
@@ -47,60 +36,35 @@ body {
 }
 
 .site-description {
-
-  font-size: 25px;
-  font-size: 1.1rem;
+  font-size: rem(25px);
   margin-bottom: 0;
   display: block;
-  color: $yellow;
-  font-family: 'Oswald', sans-serif;
-
-
-}
-
-body {
-  &.has-header-image .site-description, &.has-header-video .site-description {
-
-
-    display: block;
-    margin: 0 0 10px 0;
-
-    max-width: 100%;
-    padding: 3px 10px;
-    color: $yellow;
-
-
-  }
+  color: $white1;
 }
 
 .custom-logo-link {
   display: block;
   margin: 0 auto;
   vertical-align: middle;
-  width: 200px!important;
+  width: rem(150px);
+  height: rem(139px);
+  background-size: cover;
+  background: url('https://res.cloudinary.com/dydookaqb/image/upload/v1521806058/wordcamp2018/wordcamp_logo.svg') no-repeat center;
+
   img {
-    display: inline-block;
-    max-height: 200px!important;
-    width: auto;
-    -webkit-transition: all 0.21s ease-in-out;
-    -moz-transition: all 0.21s ease-in-out;
-    -o-transition: all 0.21s ease-in-out;
-    transition: all 0.21s ease-in-out;
-  }
-
-  &:hover{
-
-    img{
-
-      opacity: 0.9;
-
-
-    }
-
+    display: none;
   }
 }
 
-
+body {
+  &.has-header-image .site-description, &.has-header-video .site-description {
+    display: block;
+    margin: 0 0 10px 0;
+    max-width: 100%;
+    padding: 3px 10px;
+    color: $white1;
+  }
+}
 
 
 
