@@ -302,6 +302,7 @@ h2.widget-title {
         box-shadow: none;
         position: relative;
         overflow: hidden;
+        border: 2px solid white;
 
         &:after{
 
@@ -353,11 +354,8 @@ h2.widget-title {
         &:hover{
 
           text-decoration: none;
-          border: none;
           color: #fff;
           outline: none!important;
-          box-shadow: none!important;
-          -webkit-box-shadow: none!important;
           transition: none;
 
           &:after{

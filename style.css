@@ -2858,7 +2858,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 13.6 Footer
 --------------------------------------------------------------*/
 .site-footer {
-  background-color: #ddd; }
+  background-color: #009cdc; }
   .site-footer .wrap {
     padding: 0;
     max-width: 100%; }
@@ -2890,7 +2890,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     height: 16px;
     top: 12px;
     width: 16px;
-    vertical-align: top; }
+    vertical-align: top;
+    border: 2px solid #fff; }
 
 /* Site info */
 .site-info {
@@ -2898,7 +2899,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
   font-size: 0.875rem;
   margin-bottom: 1em; }
   .site-info a {
-    color: #666; }
+    color: #fff; }
   .site-info .sep {
     margin: 0;
     display: block;
@@ -2908,16 +2909,11 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .footer-widget-1 {
   color: #fff;
-  background-color: #fff;
-  background-image: url("https://2017.lublin.wordcamp.org/files/2017/02/bg-newsletter.png");
-  background-repeat: no-repeat;
-  background-position: left bottom;
+  background: #234792 url("https://2018.poznan.wordcamp.org/files/2018/03/newsletter-bg.png") no-repeat left bottom;
   padding-top: 30px;
   text-align: center; }
   .footer-widget-1 h2.widget-title {
-    color: #ffc740;
-    font-size: 20px;
-    font-size: 1.3rem;
+    color: #fff;
     margin-bottom: 30px; }
 
 .jetpack_subscription_widget {
@@ -2945,7 +2941,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
     margin: 0;
     position: relative;
     overflow: hidden;
-    background: #006f99; }
+    background: #009cdc; }
     .jetpack_subscription_widget #subscribe-submit:after {
       display: block;
       content: '';
@@ -3324,7 +3320,8 @@ h2.widget-title {
       -webkit-box-shadow: none;
               box-shadow: none;
       position: relative;
-      overflow: hidden; }
+      overflow: hidden;
+      border: 2px solid white; }
       .widget .social-links-widgets li a:after {
         display: block;
         content: '';
@@ -3356,11 +3353,8 @@ h2.widget-title {
         height: auto; }
       .widget .social-links-widgets li a:hover {
         text-decoration: none;
-        border: none;
         color: #fff;
         outline: none !important;
-        box-shadow: none !important;
-        -webkit-box-shadow: none !important;
         -webkit-transition: none;
         -o-transition: none;
         transition: none; }
