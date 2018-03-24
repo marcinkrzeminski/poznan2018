@@ -1609,15 +1609,23 @@ a:hover .nav-title {
   .navigation-top a {
     color: #234792;
     font-weight: 600;
-    -webkit-transition: color 0.2s;
-    -o-transition: color 0.2s;
-    transition: color 0.2s;
+    -webkit-transition: color 0.2s, background-color 0.3s;
+    -o-transition: color 0.2s, background-color 0.3s;
+    transition: color 0.2s, background-color 0.3s;
     text-transform: uppercase; }
   .navigation-top .current-menu-item > a,
   .navigation-top .current_page_item > a,
   .navigation-top .current-menu-parent > a,
   .navigation-top .current_page_parent > a {
     color: #234792; }
+  .navigation-top .menu > :last-child a {
+    color: #fff;
+    background-color: #c02942;
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; }
+    .navigation-top .menu > :last-child a:hover {
+      background-color: #962034; }
 
 .main-navigation {
   clear: both;

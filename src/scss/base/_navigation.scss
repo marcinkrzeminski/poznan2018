@@ -13,8 +13,7 @@
   a {
     color: $blue1;
     font-weight: 600;
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
+    transition: color 0.2s, background-color 0.3s;
     text-transform: uppercase;
   }
   .current-menu-item > a,
@@ -22,6 +21,22 @@
   .current-menu-parent > a,
   .current_page_parent > a{
     color: $blue1;
+  }
+
+  .menu {
+    & > :last-child {
+        a {
+          color: $white1;
+          background-color: $red;
+          margin-left: 1.5rem;
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+
+          &:hover {
+              background-color: darken($red, 10%);
+          }
+        }
+    }
   }
 }
 
