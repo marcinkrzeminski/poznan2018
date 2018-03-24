@@ -1824,10 +1824,12 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
   color: #fff; }
 
 .site-description {
-  font-size: 1.5625rem;
+  font-size: 1.5rem;
   margin-bottom: 0;
   display: block;
-  color: #fff; }
+  color: #fff;
+  font-weight: 400;
+  font-family: Oswald, sans-serif; }
 
 .custom-logo-link {
   display: block;

@@ -36,10 +36,12 @@ body {
 }
 
 .site-description {
-  font-size: rem(25px);
+  font-size: rem(24px);
   margin-bottom: 0;
   display: block;
   color: $white1;
+  font-weight: 400;
+  font-family: Oswald, sans-serif;
 }
 
 .custom-logo-link {
