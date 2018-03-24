@@ -4315,7 +4315,8 @@ embed, iframe, object {
     height: 14.375rem; }
   .site-branding {
     height: 400px;
-    padding-top: 6.25rem; }
+    padding-top: 6.25rem;
+    margin-bottom: 70px; }
     .home .site-branding {
       padding-top: 8.125rem;
       height: 500px; }
