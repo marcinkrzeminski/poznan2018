@@ -791,8 +791,8 @@ template, [hidden] {
   table-layout: fixed; }
 
 .nav-links {
-  border-top: 1px solid .nav-links; }
-  .nav-links :before, .nav-links:after {
+  border-top: 1px solid; }
+  .nav-links:before, .nav-links:after {
     content: "";
     display: table;
     table-layout: fixed; }
