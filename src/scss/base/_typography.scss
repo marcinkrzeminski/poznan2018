@@ -2,8 +2,9 @@
 5.0 Typography
 --------------------------------------------------------------*/
 
-body, button, input, select, textarea {
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 
+body, button, input, select, textarea {
   color: $text-color;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
