@@ -5,3 +5,5 @@ screenshot.png
 
 node_modules
 assets
+
+.DS_Store
