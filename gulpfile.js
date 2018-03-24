@@ -11,10 +11,15 @@ gulp.task('sass', function() {
     .pipe(autoprefixer({
       browsers: ['last 3 versions', 'iOS 8']
     }))
-    .pipe(csscomb())
-    .pipe(cleanCSS())
     .pipe(gulp.dest('./'))
     .pipe(browserSync.stream());
+});
+
+gulp.task('build', function() {
+    return gulp.src('./style.css')
+      .pipe(csscomb())
+      .pipe(cleanCSS())
+      .pipe(gulp.dest('./'))
 });
 
 gulp.task('serve', ['sass'], function() {
