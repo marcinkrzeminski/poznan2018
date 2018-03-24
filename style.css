@@ -1792,7 +1792,7 @@ body {
     display: block; }
 
 .container-narrow {
-  width: 740px;
+  width: 50rem;
   max-width: 100%; }
 
 @media screen and (min-width: 48em) {
@@ -2648,6 +2648,16 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .page-slug-zostan-sponsorem .site-content .wrap,
 .page-id-1242 .site-content .wrap {
   max-width: 1170px; }
+
+#post-420 .entry-header {
+  max-width: 50rem;
+  padding-left: 2em;
+  padding-right: 2em; }
+
+.table-wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 0 1.25rem; }
 
 /*Prelekcje*/
 .page-slug-program .site-content .wrap {

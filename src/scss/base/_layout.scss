@@ -46,10 +46,8 @@ body {
 }
 
 .container-narrow{
-
-  width: 740px;
+  width: rem(800px);
   max-width: 100%;
-
 }
 
 // Fix centering the content
