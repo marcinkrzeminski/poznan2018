@@ -128,11 +128,50 @@
 
   }
 
+  &.tix-has-dynamic-receipts h2 {
+    margin: rem(0px);
+  }
+
   td.tix-column-remaining{
 
     text-align: center;
     color: $box-color-4;
 
+  }
+
+  .tix_tickets_table.tix-attendee-form th {
+    font-size: rem(26px);
+    font-weight: 500;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+  }
+
+  .tix-left {
+    font-weight: bold;
+  }
+
+  .tix-right {
+    input[type=text],
+    input[type=email],
+    input[type=url],
+    textarea {
+      width: 100%;
+    }
+    label {
+      font-weight: normal;
+      display: flex;
+      align-items: center;
+
+      input {
+        margin-right: rem(10px);
+        align-self: flex-start;
+        margin-top: rem(6px);
+      }
+    }
+
+    br {
+      display: none;
+    }
   }
 
 }
