@@ -28,9 +28,16 @@
         a {
           color: $white1;
           background-color: $red;
-          margin-left: 1.5rem;
-          padding-left: 1.5rem;
-          padding-right: 1.5rem;
+          text-align: center;
+          margin-top: 1.5rem;  
+          
+          @media (min-width: rem(992px)) {
+            margin-top: 0;
+            margin-left: 1.5rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            text-align: inherit;
+          }
 
           &:hover {
               background-color: darken($red, 10%);
