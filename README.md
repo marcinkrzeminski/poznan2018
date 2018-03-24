@@ -9,6 +9,9 @@ git remote add origin https://github.com/marcinkrzeminski/poznan2018.git
 git pull
 npm install
 gulp
+
+# when done working - before push
+gulp build # minify and cleanup CSS
 ```
 6. Start contributing
 
