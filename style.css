@@ -3923,9 +3923,6 @@ embed, iframe, object {
     left: -2.5em;
     top: 1.5em;
     width: 32px; }
-  body.page-two-column:not(.archive) #primary .entry-header, body.page-two-column.archive:not(.has-sidebar) #primary .page-header {
-    float: left;
-    width: 36%; }
   .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content {
     margin: 0 auto;
     width: 58%; }
@@ -3977,9 +3974,6 @@ embed, iframe, object {
   .blog:not(.has-sidebar) .entry-content blockquote.alignleft, .twentyseventeen-front-page.page-two-column .entry-content blockquote.alignleft, .archive:not(.has-sidebar) .entry-content blockquote.alignleft, .page-two-column .entry-content blockquote.alignleft {
     margin-left: -72.5%;
     width: 62%; }
-  .blog:not(.has-sidebar) .entry-content blockquote.alignright, .twentyseventeen-front-page.page-two-column .entry-content blockquote.alignright, .archive:not(.has-sidebar) .entry-content blockquote.alignright, .page-two-column .entry-content blockquote.alignright {
-    margin-right: 0;
-    width: 36%; }
   /* Post formats */
   .format-quote blockquote .icon {
     left: -1.5em; }
