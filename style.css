@@ -939,20 +939,19 @@ h3 {
 --------------------------------------------------------------*/
 body, button, input, select, textarea {
   color: #0c1934;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-size: 0.9375rem;
   font-weight: 400;
-  line-height: 2.16; }
+  line-height: 1.6; }
 
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  line-height: 1.5;
   margin: 0 0 0.75em;
   padding: 1.5em 0 0;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   color: #234792; }
 
 h1:first-child,
@@ -964,29 +963,23 @@ h6:first-child {
   padding-top: 0; }
 
 h1 {
-  font-size: 24px;
+  font-size: 1.875rem;
   font-weight: 300; }
 
 h2 {
-  font-size: 20px; }
+  font-size: 1.5rem; }
 
 h3 {
-  font-size: 1.125rem;
-  font-weight: 300; }
+  font-size: 1.25rem; }
 
 h4 {
-  font-size: 1rem;
-  font-weight: 800; }
+  font-size: 1rem; }
 
 h5 {
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0.15em;
-  text-transform: uppercase; }
+  font-size: 0.875rem; }
 
 h6 {
-  font-size: 15px;
-  font-weight: 800; }
+  font-size: 0.75rem; }
 
 p {
   margin: 0 0 1.5em;
@@ -1610,7 +1603,8 @@ a:hover .nav-title {
 --------------------------------------------------------------*/
 .navigation-top {
   background: #009cdc;
-  position: relative; }
+  position: relative;
+  font-family: Oswald, sans-serif; }
   .navigation-top a {
     color: #234792;
     font-weight: 600;
@@ -2054,7 +2048,8 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  margin-bottom: 1.25rem; }
+  margin-bottom: 1.25rem;
+  font-family: Oswald, sans-serif; }
   .column-frontpage-main-info:hover {
     -webkit-box-shadow: -5.665px 9.429px 40px 10px rgba(35, 71, 146, 0.09);
             box-shadow: -5.665px 9.429px 40px 10px rgba(35, 71, 146, 0.09); }
@@ -2122,7 +2117,8 @@ a.btn {
   transition: all 0.3s ease 0s;
   font-size: 1rem;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  font-family: Oswald, sans-serif; }
   a.btn:after {
     display: block;
     content: '';
@@ -2188,12 +2184,8 @@ a.btn-red {
   width: 20px; }
 
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
-  font-size: 37px;
-  font-weight: 800;
-  letter-spacing: 0.05em;
+  font-weight: bold;
   text-transform: uppercase;
-  text-align: center;
-  color: #fff;
   margin-bottom: 20px; }
 
 .entry-header {
@@ -2973,7 +2965,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
       text-transform: uppercase;
       position: relative;
       z-index: 1;
-      background: transparent; }
+      background: transparent;
+      font-family: Oswald, sans-serif; }
       .jetpack_subscription_widget #subscribe-submit input:hover {
         background: transparent; }
   .jetpack_subscription_widget #subscribe-text p {
@@ -3104,8 +3097,6 @@ h2.widget-title {
   color: #222;
   font-size: 13px;
   font-size: 0.8125rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
   margin-bottom: 1.5em;
   text-transform: uppercase; }
 
@@ -3708,11 +3699,9 @@ embed, iframe, object {
       top: 8%;
       width: 1000px;
       height: 1000px;
-      -ms-transform: rotate(45deg);
-      /* IE 9 */
       -webkit-transform: rotate(45deg);
-      /* Chrome, Safari, Opera */
-      transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
       -webkit-transition: all 0.2s ease-in-out;
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }

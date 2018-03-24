@@ -22,12 +22,8 @@
 }
 
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
-  font-size: 37px;
-  font-weight: 800;
-  letter-spacing: 0.05em;
+  font-weight: bold;
   text-transform: uppercase;
-  text-align:center;
-  color: $navigation-background-color;
   margin-bottom: 20px;
 }
 .entry-header{

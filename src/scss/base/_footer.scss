@@ -118,6 +118,7 @@
     overflow: hidden;
     background: $blue2;
 
+
     &:after{
 
       display: block;
@@ -163,6 +164,7 @@
       position: relative;
       z-index: 1;
       background: transparent;
+      font-family: Oswald, sans-serif;
 
       &:hover{
 

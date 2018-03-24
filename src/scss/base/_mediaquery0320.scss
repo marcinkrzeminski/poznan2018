@@ -19,9 +19,7 @@
 @media screen and (min-width: 20em) and (max-width: 48em) {
 
   .column-frontpage-main-info{
-
     a{
-
       transition: all 1s ease-in-out;
 
 
@@ -30,8 +28,6 @@
         top: 8%;
         width: 1000px;
         height: 1000px;
-        -ms-transform: rotate(45deg); /* IE 9 */
-        -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
         transform: rotate(45deg);
         transition: all 0.2s ease-in-out;
 

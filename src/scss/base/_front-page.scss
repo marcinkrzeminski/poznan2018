@@ -136,6 +136,7 @@
   box-shadow: -5.665px 9.429px 40px 0px rgba(235, 235, 235, 0.4);
   transition: all .2s ease-in-out;
   margin-bottom: rem(20px);
+  font-family: Oswald, sans-serif;
 
   &:hover {
     box-shadow: -5.665px 9.429px 40px 10px rgba($blue1, 0.09);
@@ -207,11 +208,12 @@
   text-decoration:none;
   color: #fff;
   background:$blue1;
-   text-transform: uppercase;
-   transition: all 0.3s ease 0s;
-   font-size:1rem;
-   position: relative;
-   overflow: hidden;
+ text-transform: uppercase;
+ transition: all 0.3s ease 0s;
+ font-size:1rem;
+ position: relative;
+ overflow: hidden;
+   font-family: Oswald, sans-serif;
 
    &:after{
 
