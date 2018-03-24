@@ -26,22 +26,19 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.entry-header{
-  text-align:center;
-}
 
 
 .entry-title {
 
   font-weight: bold;
-  color: $navigation-background-color;
+  color: $blue1;
     letter-spacing: 0.05em;
   a {
     color: $blue2;
     text-decoration: none;
     &:hover{
      text-decoration: none !important;
-     color: $navigation-background-color !important; 
+     color: $blue1;
     }
   }
   &:not(:first-child) {

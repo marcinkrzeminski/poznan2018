@@ -3,11 +3,11 @@
 --------------------------------------------------------------*/
 
 a {
-  color: $brand-logo-color-blue;
+  color: $blue2;
   text-decoration: none;
 
   &:hover, &:active {
-    color: $navigation-background-color;
+    color: $blue1;
     outline: 0;
     text-decoration: none;
   }
@@ -94,10 +94,8 @@ a .nav-title,
 
 .entry-content a {
   &:focus, &:hover {
-    color: $navigation-background-color;
     outline: 0;
     text-decoration: none;
-
   }
 }
 

@@ -210,7 +210,7 @@ input {
 .contact-submit,
 .form-submit{
 
-  background-color: $yellow;
+  background-color: $blue2;
   overflow: hidden;
   position: relative;
   display: inline-block;
@@ -222,7 +222,8 @@ input {
     position: relative;
     z-index: 1;
     font-weight: normal;
-    color: #333!important;
+    color: $white1;
+    font-family: Oswald, sans-serif;
 
     &:hover{
 

@@ -1323,7 +1323,7 @@ input[type="submit"].secondary:hover, input[type="submit"].secondary:focus {
 /*Contact Form*/
 .contact-submit,
 .form-submit {
-  background-color: #ffc740;
+  background-color: #009cdc;
   overflow: hidden;
   position: relative;
   display: inline-block; }
@@ -1334,7 +1334,8 @@ input[type="submit"].secondary:hover, input[type="submit"].secondary:focus {
     position: relative;
     z-index: 1;
     font-weight: normal;
-    color: #333 !important; }
+    color: #fff;
+    font-family: Oswald, sans-serif; }
     .contact-submit input[type="submit"]:hover,
     .form-submit input[type="submit"]:hover {
       background: none; }
@@ -1430,10 +1431,10 @@ td:last-child {
 10.0 Links
 --------------------------------------------------------------*/
 a {
-  color: #006f99;
+  color: #009cdc;
   text-decoration: none; }
   a:hover, a:active {
-    color: #fff;
+    color: #234792;
     outline: 0;
     text-decoration: none; }
 
@@ -1479,7 +1480,6 @@ a .nav-title,
   text-decoration: none; }
 
 .entry-content a:focus, .entry-content a:hover {
-  color: #fff;
   outline: 0;
   text-decoration: none; }
 
@@ -2188,19 +2188,16 @@ a.btn-red {
   text-transform: uppercase;
   margin-bottom: 20px; }
 
-.entry-header {
-  text-align: center; }
-
 .entry-title {
   font-weight: bold;
-  color: #fff;
+  color: #234792;
   letter-spacing: 0.05em; }
   .entry-title a {
     color: #009cdc;
     text-decoration: none; }
     .entry-title a:hover {
       text-decoration: none !important;
-      color: #fff !important; }
+      color: #234792; }
   .entry-title:not(:first-child) {
     padding-top: 0; }
 
