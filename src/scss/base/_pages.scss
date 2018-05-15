@@ -70,7 +70,7 @@
 
         width: 40%;
         float: right;
-        
+
       }
 
       input[type="submit"]{
@@ -434,29 +434,9 @@
 .wcb-speaker-rafal-tomal,
 .wcb-speaker-katarzyna-janoska,
 .wcb-speaker-dominik-kawula{
-
-
-
   padding-top: 35px!important;
   border-right: 2px solid rgb(0, 111, 153)!important;
   position: relative;
-
-
-  &:before{
-    content: 'Dla wszystkich';
-    display: block;
-    position: absolute;
-    top: 9.8px;
-    right: 9.8px;
-    font-size: 10px;
-    background-color: rgb(0, 111, 153);
-    padding: 1px 5px;
-    border-radius: 2px;
-    color: #fff;
-    font-weight: normal;
-
-  }
-
 }
 
 /* dla blogerow*/
@@ -465,28 +445,9 @@
 .wcb-speaker-ola-gosciniak,
 .wcb-speaker-tomasz-palak,
 .wcb-speaker-lukasz-badziak{
-
-
   padding-top: 35px!important;
   border-right: 2px solid #61BD4F !important;
   position: relative;
-
-
-  &:before{
-    content: 'Dla blogerów';
-    display: block;
-    position: absolute;
-    top: 9.8px;
-    right: 9.8px;
-    font-size: 10px;
-    background-color: #61BD4F;
-    padding: 1px 5px;
-    border-radius: 2px;
-    color: #fff;
-    font-weight: normal;
-
-  }
-
 }
 
 /* dla programistow*/
@@ -511,22 +472,6 @@
   padding-top: 35px!important;
   border-right: 2px solid rgb(192, 41, 66)!important;
   position: relative;
-
-
-  &:before{
-    content: 'Dla programistów';
-    display: block;
-    position: absolute;
-    top: 9.8px;
-    right: 9.8px;
-    font-size: 10px;
-    background-color: rgb(192, 41, 66);
-    padding: 1px 5px;
-    border-radius: 2px;
-    color: #fff;
-    font-weight: normal;
-  }
-
 }
 
 .wcb-track-dla-programistow{
