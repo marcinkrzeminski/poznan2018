@@ -19,6 +19,18 @@ h3 {
     display: none;
 }
 */
+
+.wcorg-speakers {
+    & > * + * {
+        margin-top: 3em;
+    }
+}
+
+.wcorg-speaker-description img {
+    float: left;
+    margin-right: 1em;
+}
+
 #session-speaker-names,
 #speaker-session-names {
     padding-left: 0;
