@@ -20,13 +20,15 @@ h3 {
 }
 */
 
-.wcorg-speakers {
+.wcorg-speakers,
+.wcorg-sessions {
     & > * + * {
         margin-top: 3em;
     }
 }
 
-.wcorg-speaker-description img {
+.wcorg-speaker-description img,
+.wcorg-session-description img {
     float: left;
     margin-right: 1em;
 }
