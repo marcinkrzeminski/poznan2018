@@ -2734,8 +2734,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcpt-schedule .wcpt-time {
     font-weight: bold; }
   .wcpt-schedule tr.global-session {
-    background-color: #f6f9fb;
-    border-right: 2px solid #d9d9d9; }
+    background-color: #f6f9fb; }
   .wcpt-schedule td {
     padding: 0.7em 0.7em;
     vertical-align: top; }
