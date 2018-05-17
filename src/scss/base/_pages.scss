@@ -339,62 +339,45 @@
 
 }
 
-.wcpt-schedule{
-
+.wcpt-schedule {
   font-size: 14px;
 
-  .wcpt-col-time{
-
+  .wcpt-col-time {
     width: 4%;
     border-bottom: 0px;
-
   }
 
-  .wcpt-col-track{
-
+  .wcpt-col-track {
     width: 32%;
     border-bottom-width: 0px;
   }
 
-  .wcpt-time{
-
+  .wcpt-time {
     font-weight: bold;
-
   }
 
-  tr.global-session{
-
+  tr.global-session {
     background-color: #f6f9fb;
     border-right: 2px solid #d9d9d9;
-
   }
 
-
-
-
-  td{
-
+  td {
     padding: 0.7em 0.7em;
     vertical-align: top;
-
   }
 
-  th{
+  th {
     padding: 0.7em 0.7em;
   }
 
   .wcpt-session-speakers{
-
     clear: both;
     display: block;
 
-    a{
-
-
+    a {
       font-style: italic;
       color: #c02942;
       font-size: 13px;
-
     }
   }
 
@@ -405,7 +388,6 @@
   }
 
   .wcpt-col-track{
-
     background: #e9eff3;
     text-align: center;
 
@@ -413,152 +395,5 @@
       background: #f3f6f8;
     }
   }
-
 }
 
-/*dla wszystkich*/
-
-.wcb-speaker-magdalena-paciorek.wcb-speaker-jakub-milczarek,
-.wcb-speaker-maciej-swoboda,
-.wcb-speaker-kasia-swiderska,
-.wcb-speaker-aleksander-kuczek,
-.wcb-speaker-adam-czajczyk,
-.wcb-speaker-arek-steplowski,
-.wcb-speaker-ewa-karaszkiewicz,
-.wcb-speaker-gienia-malenia,
-.wcb-speaker-magdalena-gorecka,
-.wcb-speaker-karol-trybulski,
-.wcb-speaker-olexij-fedorov,
-.wcb-speaker-tomasz-kolkiewicz,
-.wcb-speaker-maria-gorska,
-.wcb-speaker-rafal-tomal,
-.wcb-speaker-katarzyna-janoska,
-.wcb-speaker-dominik-kawula{
-  padding-top: 35px!important;
-  border-right: 2px solid rgb(0, 111, 153)!important;
-  position: relative;
-}
-
-/* dla blogerow*/
-
-.wcb-speaker-bartosz-romanowski,
-.wcb-speaker-ola-gosciniak,
-.wcb-speaker-tomasz-palak,
-.wcb-speaker-lukasz-badziak{
-  padding-top: 35px!important;
-  border-right: 2px solid #61BD4F !important;
-  position: relative;
-}
-
-/* dla programistow*/
-
-.wcb-speaker-tomasz-dziuda,
-.wcb-speaker-rafal-osinski,
-.wcb-speaker-michal-strzesniewski,
-.wcb-speaker-piotr-niewiadomski,
-.wcb-speaker-marcin-bot,
-.wcb-speaker-daniel-wlazlak,
-.wcb-speaker-marcin-pietrzak,
-.wcb-speaker-krzysztof-drozdz,
-.wcb-speaker-lukasz-wilczak,
-.wcb-speaker-kamil-porembinski,
-.wcb-speaker-szymon-kadzielawa,
-.wcb-speaker-bartosz-bilicki,
-.wcb-speaker-krzysztof-ozog,
-.wcb-speaker-marcin-krzeminski,
-.wcb-track-dla-programistow,
-.wcb-speaker-patryk-omiotek.wcb-track-dla-programistow{
-
-  padding-top: 35px!important;
-  border-right: 2px solid rgb(192, 41, 66)!important;
-  position: relative;
-}
-
-.wcb-track-dla-programistow{
-
-
-  &:before{
-
-    display: none;
-
-  }
-}
-
-/*warsztaty*/
-
-.wcb-speaker-krzysztof-ozog,
-.wcb-speaker-katarzyna-janoska.wcb-track-sala-b,
-.wcb-session-kontynuacja-warsztatow-3,
-.wcb-session-kontynuacja-warsztatow-9{
-
-  border-bottom: 1px solid #fff;
-  vertical-align: middle!important;
-
-}
-
-.wcb-session-kontynuacja-warsztatow-3,
-.wcb-track-dla-programistow.wcb-track-sala-b{
-
-  .wcpt-session-title{
-
-    font-weight: normal;
-    font-size: 12px;
-
-  }
-
-}
-
-
-
-.wcb-session-kontynuacja-warsztatow-4,
-.wcb-session-kontynuacja-warsztatow-3,
-.wcb-session-kontynuacja-warsztatow-8,
-.wcb-session-kontynuacja-warsztatow-2{
-
-    border-right: 2px solid #006f99!important;
-    border-bottom: 1px solid #fff;
-    vertical-align: middle!important;
-
-  .wcpt-session-title{
-
-    font-weight: normal;
-    font-size: 12px;
-
-  }
-}
-
-.wcb-session-kontynuacja-warsztatow-5,
-.wcb-session-kontynuacja-warsztatow-6,
-.wcb-session-kontynuacja-warsztatow-7{
-
-  border-bottom: 1px solid #fff;
-  vertical-align: middle!important;
-
-
-  .wcpt-session-title{
-
-    font-weight: normal;
-    font-size: 12px;
-
-  }
-
-}
-
-.wcb-speaker-marcin-krzeminski.wcb-track-sala-b,
-.wcb-speaker-dominik-kawula.wcb-track-sala-b,
-.wcb-speaker-patryk-omiotek.wcb-track-dla-programistow{
-
-
-  border-bottom: 1px solid #fff;
-
-}
-
-.wcb-speaker-patryk-omiotek.wcb-track-dla-programistow{
-
-  .wcpt-session-title{
-
-    font-size: 14px;
-
-  }
-
-}
