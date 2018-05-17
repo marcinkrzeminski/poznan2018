@@ -2776,6 +2776,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-session-cell-content {
   padding-right: 2em; }
 
+@media screen and (max-width: 700px) {
+  span.wcpt-session-speakers {
+    padding-left: 10px; } }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
