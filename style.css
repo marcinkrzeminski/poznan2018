@@ -2757,6 +2757,25 @@ body:not(.twentyseventeen-front-page) .entry-header {
     .wcpt-schedule .wcpt-col-track:nth-child(even) {
       background: #f3f6f8; }
 
+.wcb-speaker-maciej-swoboda,
+.wcb-speaker-tomasz-palak {
+  text-align: center;
+  background-color: #fff; }
+
+.wcpt-schedule td {
+  position: relative; }
+
+.wcpt-schedule div.wcb-session-favourite-icon {
+  float: right;
+  width: auto;
+  text-align: center;
+  position: absolute;
+  top: 12px;
+  right: 5px; }
+
+.wcb-session-cell-content {
+  padding-right: 2em; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/

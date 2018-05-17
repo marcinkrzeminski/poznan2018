@@ -357,7 +357,7 @@
   }
 
   tr.global-session {
-    background-color: #f6f9fb;
+      background-color: #f6f9fb;
   }
 
   td {
@@ -396,3 +396,25 @@
   }
 }
 
+.wcb-speaker-maciej-swoboda,
+.wcb-speaker-tomasz-palak {
+  text-align: center;
+  background-color: #fff;
+}
+
+.wcpt-schedule td {
+  position: relative;
+}
+
+.wcpt-schedule div.wcb-session-favourite-icon {
+  float: right;
+  width: auto;
+  text-align: center;
+  position: absolute;
+  top: 12px;
+  right: 5px;
+}
+
+.wcb-session-cell-content {
+  padding-right: 2em;
+}
